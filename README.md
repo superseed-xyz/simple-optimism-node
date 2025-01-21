@@ -67,7 +67,7 @@ It should returns an empty container list without having any error. Otherwise, r
 ### Clone the Repository
 
 ```sh
-git clone https://github.com/smartcontracts/simple-optimism-node.git
+git clone https://github.com/superseed-xyz/simple-optimism-node.git
 cd simple-optimism-node
 ```
 
@@ -88,6 +88,8 @@ Open `.env` with your editor of choice
     * `op-sepolia` - Optimism Sepolia (Testnet)
     * `base-mainnet` - Base Mainnet
     * `base-sepolia` - Base Sepolia (Testnet)
+    * `superseed-mainnet` - Superseed Mainnet
+    * `superseed-sepolia` - Superseed Sepolia (Testnet)
 * **NODE_TYPE** - Choose the type of node you want to run:
     * `full` (Full node) - A Full node contains a few recent blocks without historical states.
     * `archive` (Archive node) - An Archive node stores the complete history of the blockchain, including historical states.
@@ -103,6 +105,8 @@ Open `.env` with your editor of choice
     * **Optimism Sepolia** - https://sepolia.optimism.io
     * **Base Mainnet** - https://mainnet.base.org
     * **Base Sepolia** - https://sepolia.base.org
+    * **Superseed Mainnet** - https://mainnet.superseed.xyz
+    * **Superseed Sepolia** - https://sepolia.superseed.xyz
 
 ### OP Mainnet only configurations
 
