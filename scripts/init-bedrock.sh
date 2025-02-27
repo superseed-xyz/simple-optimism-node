@@ -74,4 +74,3 @@ openssl rand -hex 32 > $BEDROCK_JWT_PATH
 
 echo "Creating Bedrock flag..."
 touch $INITIALIZED_FLAG
-touch /upgrade-pectra/upgraded
